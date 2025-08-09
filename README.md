@@ -42,3 +42,4 @@ Clone this repository or download the script directly:
 ```bash
 git clone https://github.com/yourusername/Split-Targets.git
 cd Split-Targets
+python3 Split-Targets.py -i targets.txt -s 2 -n 10000 -x 23,104,173
