@@ -3,6 +3,17 @@
 > Effortlessly split, clean, and deduplicate huge URL/IP target lists for your next scanning or pentesting project!
 
 ---
+```bash
+BANNER = rf"""{CYAN}
+
+ __       _ _ _  _____                     _
+/ _\_ __ | (_) |/__   \__ _ _ __ __ _  ___| |_ ___
+\ \| '_ \| | | __|/ /\/ _  |  __/ _  |/ _ \ __/ __|
+_\ \ |_) | | | |_/ / | (_| | | | (_| |  __/ |_\__ \
+\__/ .__/|_|_|\__\/   \__,_|_|  \__, |\___|\__|___/
+   |_|                          |___/
+
+```
 
 ## 🏴 What is Split-Targets?
 
@@ -42,4 +53,23 @@ Clone this repository or download the script directly:
 ```bash
 git clone https://github.com/yourusername/Split-Targets.git
 cd Split-Targets
-python3 Split-Targets.py -i targets.txt -s 2 -n 10000 -x 23,104,173
+```
+
+---
+
+## 🏴 Usage
+Run the script from the command line with your input file and options:
+
+```bash
+python3 Split-Targets.py -i <targets.txt> -s 2 -n 10000 -x 23,104,173
+Parameters
+-i <filepath> (required) — Path to your input target list file (one URL/IP per line)
+
+-s <start_index> — Starting index for output files (default: 2)
+
+-n <lines_per_file> — Number of lines per chunk file (default: 10,000)
+
+-x <prefixes> — Comma-separated IP prefixes to exclude (default: 23,104,173)
+
+--dry-run — Show how the input would be split without writing any files
+```
