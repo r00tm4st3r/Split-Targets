@@ -56,11 +56,18 @@ cd Split-Targets
 ---
 
 ## 🏴 Usage
-Run the script from the command line with your input file and options:
+<img width="1081" height="413" alt="image" src="https://github.com/user-attachments/assets/171a8aa0-6f3a-47c8-8ae8-eeadfe42013c" />
+
+## 🏴 Run the script from the command line with your input file and options:
 
 ```bash
 python3 Split-Targets.py -i <targets.txt> -s 2 -n 10000 -x 23,104,173
-Parameters
+```
+
+---
+
+## 🏴 Parameters
+```bash
 -i <filepath> (required) — Path to your input target list file (one URL/IP per line)
 
 -s <start_index> — Starting index for output files (default: 2)
