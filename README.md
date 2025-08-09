@@ -49,7 +49,7 @@ No dependencies required beyond Python 3.6 or higher.
 Clone this repository or download the script directly:
 
 ```bash
-git clone https://github.com/yourusername/Split-Targets.git
+git clone https://github.com/r00tm4st3r/Split-Targets.git
 cd Split-Targets
 ```
 
